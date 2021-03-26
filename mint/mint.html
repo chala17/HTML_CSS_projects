@@ -19,11 +19,85 @@
         </button>
       </div>
     </nav>
-    <section>
-      <h1>Intuit</h1>
+    <header class="header-logo">
+      <div class="intuit-logo"></div>
+    </header>
+    <section class="main-content">
+      <ul class="links">
+        <li>
+          <span class="mint link-logo"></span><!--
+          --><span class="mint-text"></span>
+        </li><!--
+        --><li>
+          <span class="quickbooks link-logo"></span>
+          <span class="quickbooks-text"></span>
+        </li><!--
+        --><li>
+          <span class="turbotax link-logo"></span>
+          <span class="turbotax-text"></span>
+        </li>
+      </ul>
+      <div class="sign-up-container">
+        <header>
+          <h1>Create an Intuit account</h1>
+          <div>
+            <p class="additional-text">One account for everything Intuit, including Mint.</p>
+            <p class="additional-text link-text">Learn more</p>
+          </div>
+        </header>
+        <div class="form-container">
+          <form>
+            <fieldset id="email">
+              <label for="email-address">Email address</label>
+              <div>
+                <input type="email" name="email-address">
+              </div>
+            </fieldset>
+            <fieldset id="phone">
+              <label for="phone-number">Phone (recommended)</label>
+              <div>
+                <input type="tel" name="phone-number">
+                <p class="phone-disclaimer">Standard call, messaging or data rates may apply.</p>
+              </div>
+            </fieldset>
+            <fieldset id="password">
+              <label for="password">Password</label>
+              <div>
+                <input type="password" name="password">
+                <span class="password-lock"></span>
+              </div>
+            </fieldset>
+            <div class="button-container">
+              <button class="create-account">
+                <span class="button-lock move-lock"></span>
+                <span class="create-button-text">Create Account</span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="terms-and-conditions">
+          <p>By clicking Create Account, you agree to our <br><span class="link-text">Terms</span> and have read and acknowledge our <span class="link-text">Global Privacy <br>Statement</span>.</p>
+        </div>
+        <footer>
+          <p class="captcha">Invisible reCAPTCHA by Google <span class="link-text">Privacy Policy</span> and <span class="link-text">Terms of Use</span>.</p>
+        </footer>
+      </div>
     </section>
     <footer>
-      <p>Privacy Settings</p>
+      <div class="trademarks-etc">
+        <ul>
+          <li>Legal</li>
+          <li>Privacy</li>
+          <li>Security</li>
+        </ul>
+        <div>
+          © 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+         <br> Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </div>
+      </div>
+      <div class="privacy">
+        <span class="link-text">Privacy Settings</span>
+      </div>
     </footer>
   </body>
 </html>
